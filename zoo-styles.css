@@ -1,0 +1,105 @@
+body{
+    background-color: #E3CCA1;
+}
+
+#container{
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    border-right: 2px solid #52331C;
+    border-left: 2px solid #52331C;
+    padding: 20px;
+}
+h1{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 76px;
+    color: #4D331E;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+h2{
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 26px; 
+}
+h3{
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 26px; 
+    color: #4D331E;
+}
+p{
+    font-size: 16px;
+    color: #4D331E;
+    padding: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+/*MENU STYLES*/
+#menu{
+    width:170px;
+    float: left;
+}
+#menu ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#menu li{
+    background-color: #E8ccF9;
+    border: 1px solid #4D331E;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 4px;
+}
+
+#menu a:link, a:visited{
+    color: #060;
+    text-decoration: none;
+    font-weight: bold;
+}
+#menu a:hover, a:active{
+    color: #900;
+    text-decoration: underline;
+}
+/*MAIN SECTION*/
+#main{
+    margin-left: 190px;
+}
+#main h3{
+    color:#4D331E;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+#main p{
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+#main a.link, a:visited{
+    color: #900;
+    text-decoration: underline;
+}
+#main a:hover, a:active{
+    color: #03C;
+}
+
+/*LINK STYLES*/
+a.link, a:visited{
+    color: #060;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover, a:active{
+    color: #900;
+    text-decoration: underline;
+}
+/*CLASS STYLES*/
+.rightfloat{
+    border: 2px solid #060;
+    margin: 8px;
+    float: right;
+}
